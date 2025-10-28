@@ -61,6 +61,35 @@ Show random encouraging messages depending on mood.
 
 Teacher Mode explains the flow to students.
 
+### Teaching the App in 60 Minutes
+
+Here’s how I’d teach students aged 12–16 using Moodio:
+
+1. **Introduction (5 min)**  
+   - Explain the concept of **mood in text** and **sentiment analysis**. 
+   - Show a few sentences and ask students how they feel.
+
+2. **App Demo (10 min)**  
+   - Type a few example sentences into Moodio.  
+   - Show how the **emoji changes** based on mood.  
+   - Highlight the **Teacher Mode** and explain the flow:  
+     Text input → Bad word filter → Sentiment analysis → Emoji output.
+
+3. **Hands-on Activity (25 min)**  
+   - Students type their own sentences.  
+   - Predict the emoji first, then see the app output.  
+   - Discuss any surprises or misclassifications.
+
+4. **Explain the Code & Logic (15 min)**  
+   - Introduce **TextBlob** sentiment polarity.  
+   - Show how positive (>0.2), negative (<-0.2), and neutral (-0.2 to 0.2) are mapped.  
+   - Explain **kid-safe filtering** and why it’s important.
+
+5. **Wrap-up & Learning Outcome (5 min)**  
+   - Recap: how computers can **analyze text** and detect mood.  
+   - Ask students what they learned and how it could be improved.  
+
+
 ### Learning Outcomes
 Understand how computers can analyze text and detect mood.
 
@@ -74,3 +103,7 @@ Teach kids coding concepts through an interactive app.
 TextBlob is simple; complex or sarcastic sentences may be misclassified.
 
 Only filters a small list of bad words and it might miss some phrases.
+
+### References
+
+- [TextBlob](https://textblob.readthedocs.io/en/dev/)
