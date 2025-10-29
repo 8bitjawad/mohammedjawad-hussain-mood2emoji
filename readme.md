@@ -107,3 +107,5 @@ Only filters a small list of bad words and it might miss some phrases.
 ### References
 
 - [TextBlob](https://textblob.readthedocs.io/en/dev/)
+
+### Note: This project was made for a technical assignment at Codingal.
